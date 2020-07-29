@@ -20,6 +20,7 @@ Mac OS:
 $ pip install tweepy
 $ pip install -U scikit-learn
 $ pip install pandas
+$ pip install jupyter
 ```
 
 Windows:
@@ -28,45 +29,23 @@ Windows:
 pip install tweepy
 pip install -U scikit-learn
 pip install pandas
+pip install jupyter
 ```
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
-_For more examples and usage, please refer to the [Wiki][wiki]._
-
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
-```
-
-## Release History
-
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
-
-## Meta
-
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
-
-Distributed under the XYZ license. See ``LICENSE`` for more information.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+1. Download/Clone semua file yang ada dalam repositori ini
+2. Buka Folder Crawl
+   2.1 Buka file .ipynb lewat jupyter notebook
+   2.2 Pada blok ke 4 terdapat code
+   ```sh
+        if __name__ == '__main__':
+    username = ['@jooshpn']  # masukkan username target
+    for uname in username:
+        get_tweets(uname)
+   ```
+      Ubah ```sh username = [''] ``` menjadi username target kalian
+   2.3 Run Semua blok dari awal sampai akhir
 
 ## Contributing
 
