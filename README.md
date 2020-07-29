@@ -2,10 +2,6 @@
 
 > Berisi 4 Folder untuk melakukan klasifikasi kepribadian dengan menggunakan metode PbSC.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
 Aplikasi terdiri dari 4 folder dimana setiap folder memiliki fungsinya masing-masing.
 1. Crawl, Bertujuan untuk mengumpulkan tweet dari masing-masing user
 2. Preprocessing, Bertujuan untuk membersihkan hasil tweet yang sudah di crawl
@@ -35,7 +31,7 @@ pip install jupyter
 ## Usage example
 
 1. Download/Clone semua file yang ada dalam repositori ini
-2. Buka Folder Crawl  
+2. Buka Folder __Crawl__  
    a.Buka file .ipynb lewat jupyter notebook    
    b.Pada blok ke 4 terdapat code  
    ```sh
@@ -49,6 +45,8 @@ pip install jupyter
       username = ['@jooshpn'] 
    ``` 
    c.Run Semua blok dari awal sampai akhir  
+   d.Setelah selesai di run maka akan didapatkan file result ```username.csv```  
+   e.Copy file tersebut dan paste ke Folder __Preprocessing__
 
 ## Contributing
 
