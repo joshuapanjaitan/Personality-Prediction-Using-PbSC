@@ -50,7 +50,7 @@ pip install jupyter
 3. Buka Folder __Preprocessing__  
    a. Didalam folder terdapat file ```clean1.ipynb``` dan ```clean2.ipynb```  
    b. Buka file tersebut secara berurutan mulai dari ```clean1.ipynb``` terlebih dahulu   
-      ubah semua ```uname = ['@jooshpn']``` isi variabel username menjadi username target   
+   c. Ubah semua ```uname = ['@jooshpn']``` isi variabel username menjadi username target yg sebelumnya anda isi pada folder __Crawl__   
    c. File ```clean1.ipynb``` bertujuan untuk membersihkan __special character__, __convert emoji__, dan __case folding__  
    d. Sementara ```clean2.ipynb``` bertujuan untuk membersihkan URL  
    e. Setelah 2 File tersebut selesai di run pindahkan file hasil ```username.csv``` ke folder __PbSC__   
