@@ -36,7 +36,7 @@ pip install nltk
 pip install textblob
 ```
 
-## Usage example
+## Usage example (Alur Program)
 
 1. Download/Clone semua file yang ada dalam repositori ini  
 
@@ -69,6 +69,17 @@ pip install textblob
    a. Didalam Folder terdapat file ```pbsc_ruled_based.ipynb```  
    b. Buka folder dan jangan lupa ganti ```uname = ['@jooshpn']``` menjadi username target yang sebelumnya anda isi.  
    c. Run Program dari awal sampai akhir untuk melihat hasil klasifikasi.  
+   
+5. GUI APPS  
+   Folder __GUI__ Berisi aplikasi PbSC yang sudah dibuatkan versi GUInya agar user bisa langsung berinteraksi dengan program.  
+   
+   a. Buka Folder __GUI__ dan didalamnya terdapat file ```main.py```
+   b. Jalankan file ```main.py``` dan anda sudah bisa berinteraksi dengan __Sistem Klasifikasi Kepribadian berbasis Twitter dengan Algoritma PbSC__  
+      ```sh
+      python3 main.py #buka lewat CMD
+      ```
+   c. Sistem yang berjalan sudah melewati proses __crawling__, __preprocessing__ dan __klasifikasi__ yang sudah anda coba sebelumnya dalam __Alur 1-4__
+   
    
 ## Contributing
 
