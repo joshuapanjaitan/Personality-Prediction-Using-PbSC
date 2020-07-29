@@ -32,8 +32,8 @@ pip install jupyter
 
 1. Download/Clone semua file yang ada dalam repositori ini
 2. Buka Folder __Crawl__  
-   a.Buka file .ipynb lewat jupyter notebook    
-   b.Pada blok ke 4 terdapat code  
+   a. Buka file .ipynb lewat jupyter notebook    
+   b. Pada blok ke 4 terdapat code  
    ```sh
    if __name__ == '__main__':
       username = ['@jooshpn']  # masukkan username target
@@ -44,10 +44,16 @@ pip install jupyter
    ```
       username = ['@jooshpn'] 
    ``` 
-   c.Run Semua blok dari awal sampai akhir  
-   d.Setelah selesai di run maka akan didapatkan file result ```username.csv```  
-   e.Copy file tersebut dan paste ke Folder __Preprocessing__
-
+   c. Run Semua blok dari awal sampai akhir  
+   d. Setelah selesai di run maka akan didapatkan file result ```username.csv```  
+   e. Copy file tersebut dan paste ke Folder __Preprocessing__  
+3. Buka Folder __Preprocessing__  
+   a. Didalam folder terdapat file ```clean1.ipynb``` dan ```clean2.ipynb```  
+   b. Buka file tersebut secara berurutan mulai dari ```clean1.ipynb``` terlebih dahulu   
+      ubah semua ```uname = ['@jooshpn']``` isi variabel username menjadi username target   
+   c. File ```clean1.ipynb``` bertujuan untuk membersihkan __special character__, __convert emoji__, dan __case folding__  
+   d. Sementara ```clean2.ipynb``` bertujuan untuk membersihkan URL  
+   e. Setelah 2 File tersebut selesai di run pindahkan file hasil ```username.csv``` ke folder __PbSC__   
 ## Contributing
 
 1. Fork it (<https://github.com/yourname/yourproject/fork>)
