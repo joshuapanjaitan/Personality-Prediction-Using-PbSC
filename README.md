@@ -41,7 +41,7 @@ pip install textblob
 1. Download/Clone semua file yang ada dalam repositori ini  
 
 2. Buka Folder __Crawl__  
-   a. Buka file .ipynb lewat jupyter notebook    
+   a. Buka file .ipynb lewat jupyter notebook  
    b. Pada blok ke 4 terdapat code  
    ```sh
    if __name__ == '__main__':
