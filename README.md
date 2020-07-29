@@ -17,6 +17,10 @@ $ pip install tweepy
 $ pip install -U scikit-learn
 $ pip install pandas
 $ pip install jupyter
+$ pip install csv
+$ pip install numpy
+$ pip install nltk
+$ pip install textblob
 ```
 
 Windows:
@@ -26,11 +30,16 @@ pip install tweepy
 pip install -U scikit-learn
 pip install pandas
 pip install jupyter
+pip install csv
+pip install numpy
+pip install nltk
+pip install textblob
 ```
 
 ## Usage example
 
-1. Download/Clone semua file yang ada dalam repositori ini
+1. Download/Clone semua file yang ada dalam repositori ini  
+
 2. Buka Folder __Crawl__  
    a. Buka file .ipynb lewat jupyter notebook    
    b. Pada blok ke 4 terdapat code  
@@ -47,13 +56,20 @@ pip install jupyter
    c. Run Semua blok dari awal sampai akhir  
    d. Setelah selesai di run maka akan didapatkan file result ```username.csv```  
    e. Copy file tersebut dan paste ke Folder __Preprocessing__  
+   
 3. Buka Folder __Preprocessing__  
    a. Didalam folder terdapat file ```clean1.ipynb``` dan ```clean2.ipynb```  
    b. Buka file tersebut secara berurutan mulai dari ```clean1.ipynb``` terlebih dahulu   
    c. Ubah semua ```uname = ['@jooshpn']``` isi variabel username menjadi username target yg sebelumnya anda isi pada folder __Crawl__   
    c. File ```clean1.ipynb``` bertujuan untuk membersihkan __special character__, __convert emoji__, dan __case folding__  
    d. Sementara ```clean2.ipynb``` bertujuan untuk membersihkan URL  
-   e. Setelah 2 File tersebut selesai di run pindahkan file hasil ```username.csv``` ke folder __PbSC__   
+   e. Setelah 2 File tersebut selesai di run pindahkan file hasil ```username.csv``` ke folder __PbSC__  
+   
+4. Buka Folder __PbSC__  
+   a. Didalam Folder terdapat file ```pbsc_ruled_based.ipynb```  
+   b. Buka folder dan jangan lupa ganti ```uname = ['@jooshpn']``` menjadi username target yang sebelumnya anda isi.  
+   c. Run Program dari awal sampai akhir untuk melihat hasil klasifikasi.  
+   
 ## Contributing
 
 1. Fork it (<https://github.com/yourname/yourproject/fork>)
