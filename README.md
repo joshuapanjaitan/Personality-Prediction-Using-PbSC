@@ -73,8 +73,8 @@ pip install textblob
 5. GUI APPS  
    Folder __GUI__ Berisi aplikasi PbSC yang sudah dibuatkan versi GUInya agar user bisa langsung berinteraksi dengan program.  
    
-   a. Buka Folder __GUI__ dan didalamnya terdapat file ```main.py```
-   b. Jalankan file ```main.py``` dan anda sudah bisa berinteraksi dengan __Sistem Klasifikasi Kepribadian berbasis Twitter dengan Algoritma PbSC__  
+   a. Buka Folder __GUI__ dan didalamnya terdapat file ```main.py```  
+   b. Jalankan file ```main.py``` dan anda sudah bisa berinteraksi dengan __Sistem Klasifikasi Kepribadian berbasis Twitter dengan Algoritma PbSC__    
       ```sh
       python3 main.py #buka lewat CMD
       ```
