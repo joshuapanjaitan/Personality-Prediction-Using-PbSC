@@ -2,7 +2,7 @@ import dic as dic
 import numpy as np
 import csv
 
-# khusus mendeteksi HC = high Agreeableness
+# khusus mendeteksi HC = high Conscientiousnes
 
 
 def getTW(username):  # get tweet
@@ -15,42 +15,42 @@ def getTW(username):  # get tweet
     return tweet
 
 
-def calculateHA(tweet):
-    countHA = []
-    ratioHA = 0
+def calculateHC(tweet):
+    countHC = []  # hc tweets
+    ratioHC = 0  # total tweet - count HC
 
-    for line in dic.highAgreeableness:
+    for line in dic.highConscientiousnes:
         for x in range(len(tweet)):
             text = ''.join(tweet[x])
             if line in text:
-                countHA.append(x)
+                countHC.append(x)
 
-    ress = np.unique(countHA)
-    ratioHA = len(ress) / len(tweet)
-    hasil = [len(ress),  round(ratioHA, 5)]
+    ress = np.unique(countHC)
+    ratioHC = len(ress) / len(tweet)
+    hasil = [len(ress),  round(ratioHC, 5)]
     return hasil
 
 
-def calculateLA(tweet):
-    countLA = []
-    ratioLA = 0
+def calculateLC(tweet):
+    countLC = []
+    ratioLC = 0
 
-    for line in dic.lowAgreeableness:
+    for line in dic.lowConscientiousnes:
         for x in range(len(tweet)):
             text = ''.join(tweet[x])
             if line in text:
-                countLA.append(x)
+                countLC.append(x)
 
-    ress = np.unique(countLA)
-    ratioLA = len(ress) / len(tweet)
-    hasil = [len(ress),  round(ratioLA, 5)]
+    ress = np.unique(countLC)
+    ratioLC = len(ress) / len(tweet)
+    hasil = [len(ress),  round(ratioLC, 5)]
     return hasil
 
 
 def driver(uname):
     uname = getTW(uname)
-    a = calculateHA(uname)
-    b = calculateLA(uname)
+    a = calculateHC(uname)
+    b = calculateLC(uname)
 
     hasil = [a[0], a[1], b[0], b[1]]
     return hasil
