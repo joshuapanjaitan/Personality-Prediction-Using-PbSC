@@ -41,7 +41,7 @@ pip install jupyter
          get_tweets(uname)
    ```
    Ubah username target username kalian    
-   ```sh 
+   ```
       username = ['@jooshpn'] 
    ``` 
    c.Run Semua blok dari awal sampai akhir  
