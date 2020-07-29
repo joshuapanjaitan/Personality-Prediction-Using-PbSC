@@ -44,7 +44,11 @@ pip install jupyter
       for uname in username:
          get_tweets(uname)
    ```
-   Ubah ```sh username = [''] ``` menjadi username target kalian    
+   Ubah 
+   ```sh 
+      username = [''] 
+   ``` 
+   menjadi username target kalian    
    c.Run Semua blok dari awal sampai akhir  
 
 ## Contributing
